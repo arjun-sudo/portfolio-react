@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Sidebar from "./components/Sidebar";
 
 function App() {
     return (
@@ -7,17 +8,15 @@ function App() {
 
             <div className="container">
                 <div className="row">
-          <div className="col-3 ">
-              <div className="app__sidebar">
-                  sidebar
-              </div>
+                    <div className="col-lg-3 ">
+                        <div className="app__sidebar">
+                            <Sidebar/>
+                        </div>
 
-
-
-          </div>
-          <div className="col-9 app__main-content">
-            Main
-          </div>
+                    </div>
+                    <div className="col-lg-9 app__main-content">
+                        Main
+                    </div>
                 </div>
             </div>
         </div>
