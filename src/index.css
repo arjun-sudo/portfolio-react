@@ -74,3 +74,23 @@ a:hover{
   text-decoration: none;
   color:#6DD5FA ;
 }
+.sidebar__contact{
+  background-color: #dbdbdf;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin-top:30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sidebar__email{
+  background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin: 15px 25px 0px;
+  cursor: pointer;
+  transition: all 1s;
+  border-radius: 30px;
+  box-shadow: 0 0 10px black;
+}
+.sidebar__email:hover{
+  transform: scale(1.2);
+
+}
