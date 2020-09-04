@@ -19,11 +19,13 @@ code {
   height: 100%;
   border-radius: 20px;
   padding: 25px 15px;
+  box-shadow: 0 0 10px black;
 }
 .app__main-content{
   background-color: white;
   border-radius: 20px;
   padding: 25px 15px;
+  box-shadow: 0 0 10px black;
 }
 .row{
   height:90vh;
