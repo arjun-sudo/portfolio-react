@@ -2,11 +2,12 @@ import React from "react";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
-import {BrowserRouter as Router} from "react-router-dom";
+import {BrowserRouter as Router,Redirect,Switch} from "react-router-dom";
 import Route from "react-router-dom/es/Route";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+
 
 function App() {
     return (
@@ -27,6 +28,8 @@ function App() {
                             {/*    Navbar*/}
                             <Navbar/>
 
+                            <Switch>
+
                             <Route exact path={"/"}>
                                 <About/>
                             </Route>
@@ -36,7 +39,10 @@ function App() {
                             <Route path={"/resume"}>
                                 <Resume/>
                             </Route>
-
+                            <Route>
+                                <Redirect to={'/'} />
+                            </Route>
+                            </Switch>
                         </div>
                     </div>
                 </div>
