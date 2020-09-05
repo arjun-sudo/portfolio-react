@@ -93,7 +93,7 @@ margin: 15px 25px 0px;
   box-shadow: 0px 0px 5px black;
 }
 .sidebar__email:hover{
-  transform: scale(1.01);
+  transform: scale(1.2);
 
 }
 .sidebar__github{
@@ -129,4 +129,9 @@ a{
 }
 a:hover{
   color: black;
+}
+
+.github{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

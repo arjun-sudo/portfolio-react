@@ -34,12 +34,13 @@ const Sidebar = () => {
       {/*      &nbsp;    Github*/}
       {/*  </div>*/}
       {/*  */}
-
-                <GitHubButton href="https://github.com/arjun-sudo" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-size="large" aria-label="Follow @ntkme on GitHub">Follow @arjun-sudo</GitHubButton>
+<div className={"github"}>
+                <GitHubButton href="https://github.com/arjun-sudo" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-size="large" aria-label="Follow @arjun-sudo on GitHub">Follow @arjun-sudo</GitHubButton>
+</div>
       <div className="sidebar__contact">
 
           <figure className={"sidebar__social-icons my-2"}>
-              <a href={""}>
+              <a href={"https://www.linkedin.com/in/arjun-gautam-laser"} target={"_blank"}>
                   {" "}
                   <img
                       src={linkedin}
@@ -47,13 +48,13 @@ const Sidebar = () => {
                       className={"sidebar__icon mr-3"}
                   />
               </a>
-              <a href={""}>
+              <a href={"https://www.facebook.com/people/Arjun-Gautam/100010140661075"} target={"_blank"}>
                   <img src={fb} alt={"facebook"} className={"sidebar__icon mr-3"} />
               </a>
 
-              <a href={""}>
+              <a href={"https://www.instagram.com/laserarjun/"} target={"_blank"}>
                   {" "}
-                  <img src={insta} alt={"instagram"} className={"sidebar__icon"} />{" "}
+                  <img src={insta} alt={"instagram"}  className={"sidebar__icon"} />{" "}
               </a>
           </figure>
         <div className="sidebar__location">
