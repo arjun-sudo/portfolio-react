@@ -1,12 +1,13 @@
 import React from "react";
 import fb from "../assets/fb.svg";
 import linkedin from "../assets/linkedin.svg";
-import resume from "../assets/resume.svg";
+// import resume from "../assets/resume.svg";
 import github from "../assets/github.svg";
 import insta from "../assets/insta.svg";
 import pin from "../assets/pin.svg";
 import avatar from "../assets/avatar.svg";
 import GitHubButton from 'react-github-btn'
+import resume from "../assets/resume.pdf"
 
 const Sidebar = () => {
   return (
@@ -19,9 +20,11 @@ const Sidebar = () => {
       {/*<a href={"#"}>*/}
       {/*<div className="sidebar__item sidebar__resume">*/}
      <div>
+
          <button className="btn">
-        <i className="fa fa-download"></i> Download Resume
-      </button>
+        <i className="fa fa-download"></i><a href={resume} download={"resume.pdf"}> Download Resume
+         </a> </button>
+
      </div>
 
 
@@ -58,11 +61,11 @@ const Sidebar = () => {
               </a>
           </figure>
         <div className="sidebar__location">
-          <img src={pin} alt={""} className={"sidebar__icon"} />
+          <img src={pin} alt={""} className={"sidebar__icon "} />
           Kathmandu, Nepal
         </div>
-        <div className="sidebar__item">laserarjun@gmail.com</div>
-        <div className={"sidebar__item"}>9863482273/9861616143</div>
+        <div className="sidebar__item email" >laserarjun@gmail.com</div>
+        <div className={"sidebar__item phone__number"}>9863482273</div>
       </div>
       <div className="sidebar__item sidebar__email">email me</div>
     </div>

@@ -64,6 +64,12 @@ code {
   border-radius: 30px;
 
 }
+.phone__number{
+  font-family:"Abyssinica SIL" ;
+}
+.email{
+  font-family:Arial;
+}
 .sidebar__title{
 background-color: #f1f1f1;
   border-radius: 30px;
@@ -88,12 +94,12 @@ a:hover{
   background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 margin: 15px 25px 0px;
   cursor: pointer;
-  transition: all 1s linear;
+  /*transition: 0.1s ;*/
   border-radius: 30px;
   box-shadow: 0px 0px 5px black;
 }
 .sidebar__email:hover{
-  transform: scale(1.2);
+  transform: scale(1.03 )
 
 }
 .sidebar__github{
@@ -134,4 +140,11 @@ a:hover{
 .github{
   margin-top: 20px;
   margin-bottom: 20px;
+}
+@media(max-width: 991px) {
+  .app__main-content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
 }
