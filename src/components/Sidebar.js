@@ -2,7 +2,7 @@ import React from "react";
 import fb from "../assets/fb.svg";
 import linkedin from "../assets/linkedin.svg";
 // import resume from "../assets/resume.svg";
-import github from "../assets/github.svg";
+// import github from "../assets/github.svg";
 import insta from "../assets/insta.svg";
 import pin from "../assets/pin.svg";
 import avatar from "../assets/avatar.svg";
@@ -47,7 +47,7 @@ const Sidebar = () => {
       <div className="sidebar__contact">
 
           <figure className={"sidebar__social-icons my-2"}>
-              <a href={"https://www.linkedin.com/in/arjun-gautam-laser"} target={"_blank"}>
+              <a href={"https://www.linkedin.com/in/arjun-gautam-laser"} target={"_blank"} rel="noopener noreferrer">
                   {" "}
                   <img
                       src={linkedin}
@@ -55,11 +55,11 @@ const Sidebar = () => {
                       className={"sidebar__icon mr-3"}
                   />
               </a>
-              <a href={"https://www.facebook.com/people/Arjun-Gautam/100010140661075"} target={"_blank"}>
+              <a href={"https://www.facebook.com/people/Arjun-Gautam/100010140661075"} target={"_blank"} rel="noopener noreferrer">
                   <img src={fb} alt={"facebook"} className={"sidebar__icon mr-3"} />
               </a>
 
-              <a href={"https://www.instagram.com/laserarjun/"} target={"_blank"}>
+              <a href={"https://www.instagram.com/laserarjun/"} target={"_blank"} rel="noopener noreferrer">
                   {" "}
                   <img src={insta} alt={"instagram"}  className={"sidebar__icon"} />{" "}
               </a>
