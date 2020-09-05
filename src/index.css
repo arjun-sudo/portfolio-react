@@ -130,11 +130,12 @@ margin: 15px 25px 0px;
   transform: scale(1.03);
 }
 a{
-  color: black;
+  color: white;
+  font-style: inherit;
 
 }
 a:hover{
-  color: black;
+  color: white;
 }
 
 .github{
