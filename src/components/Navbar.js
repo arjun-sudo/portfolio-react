@@ -1,15 +1,30 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 const Navbar = () => {
+    const [active,setActive]=useState('About')
+
     return (
         <div className={"navbar"}>
             <div className="navbar__active">
-                About
+                {active}
             </div>
             <div className="navbar__items">
-                <div className="navbar__item">About</div>
-                <div className="navbar__item">Resume</div>
-                <div className="navbar__item">Projects</div>
+
+
+                {/*Main logic to change th components*/}
+
+                {active!=="About" &&
+                <div className="navbar__item" onClick={()=>setActive('About')}>About</div>
+                }
+
+                {active!=="Resume" ?  <div className="navbar__item" onClick={()=>setActive('Resume')}>Resume</div>
+                    :null
+                }
+
+                {active!=="Projects" &&
+
+                <div className="navbar__item" onClick={()=>setActive('Projects')}>Projects</div>
+                }
             </div>
 
         </div>
