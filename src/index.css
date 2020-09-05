@@ -149,3 +149,30 @@ a:hover{
   }
 
 }
+
+/*For navbar Section */
+ .navbar__items{
+   display: flex;
+ }
+.navbar__active{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #354358;
+  border-bottom: 4px solid deepskyblue;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-width: 5px;
+}
+.navbar__item{
+  margin-right: 20px;
+  text-decoration: none;
+  color: #354358;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.navbar__item:hover{
+ color: deepskyblue;
+  transform: scale3d(1.02,1.02,1);
+  transform-style: flat;
+}
