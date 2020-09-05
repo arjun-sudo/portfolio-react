@@ -10,6 +10,10 @@ import GitHubButton from 'react-github-btn'
 import resume from "../assets/resume.pdf"
 
 const Sidebar = () => {
+
+    const handleEmailMe=()=>{
+        window.open("mailto:laserarjun@gmail.com")
+    }
   return (
     <div className={"sidebar"}>
       <img src={avatar} alt={"avatar"} className={"sidebar__avatar"} />
@@ -67,7 +71,7 @@ const Sidebar = () => {
         <div className="sidebar__item email" >laserarjun@gmail.com</div>
         <div className={"sidebar__item phone__number"}>9863482273</div>
       </div>
-      <div className="sidebar__item sidebar__email">email me</div>
+      <div className="sidebar__item sidebar__email" onClick={handleEmailMe}>email me</div>
     </div>
   );
 };
