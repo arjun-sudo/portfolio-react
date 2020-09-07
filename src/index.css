@@ -21,10 +21,10 @@ code {
   padding: 25px 15px;
   box-shadow: 0 0 10px black;
 }
-.row{
+.app__row{
   height:90vh;
 }
-.container{
+.app__container{
   padding-top: 50px;
 }
 /*Sidebar*/
