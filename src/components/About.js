@@ -21,7 +21,13 @@ const skills=[
         icon:api,
         title:"Title",
         about:"This is about session."
+    },
+    {
+        icon:api,
+        title:"Title",
+        about:"This is about session from master."
     }
+
 
 ]
 
