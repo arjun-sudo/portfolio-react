@@ -182,8 +182,8 @@ a:hover {
 .navbar__active {
     font-size: 2rem;
     font-weight: 700;
-    color: #354358;
-    border-bottom: 4px solid deepskyblue;
+    color: dodgerblue;
+    border-bottom: 4px solid dodgerblue;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-width: 5px;
@@ -192,7 +192,7 @@ a:hover {
 .navbar__item {
     margin-right: 20px;
     text-decoration: none;
-    color: #354358;
+    color: DodgerBlue;
     font-size: 1.3rem;
     cursor: pointer;
     border-radius: 20px;
@@ -200,7 +200,7 @@ a:hover {
 
 .navbar__item:hover {
     color: deepskyblue;
-    transform: scale3d(1.02, 1.02, 1);
+    transform: scale3d(1.2, 1.2, 1);
     transform-style: flat;
 }
 
@@ -292,17 +292,16 @@ a:hover {
     background-color: #f1f1f1;
     border-radius: 20px;
     margin-bottom: 12px;
-
 }
 .bar__icon{
-    width: 15px;
-    height: 15px;
+    width: 23px;
+    height: 23px;
 }
 .bar__wrapper{
-    background-image: linear-gradient(90deg,#2980b9, #6dd5fa);
+    background-image: linear-gradient(90deg, #6dd5fa,#2980b9);
     border-radius: 20px;
     padding: 4px 14px;
-    color: #ffffff;
+    color: black;
     font-size: 0.9rem;
 
 }

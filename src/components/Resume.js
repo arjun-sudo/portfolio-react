@@ -1,49 +1,94 @@
 import React from 'react';
 import java from '../assets/java.svg'
+import spring from '../assets/spring.png'
+import mysql from '../assets/mysql.svg'
+import react from '../assets/react.png'
+import js from '../assets/js.svg'
+import material from '../assets/materil.png'
+import python from '../assets/python.png'
+import kotlin from '../assets/kotlin.png'
+import linux from '../assets/linux.png'
+import git from '../assets/git.png'
+import intellij from '../assets/intellij.png'
+import jira from '../assets/jira.png'
+import android from '../assets/android.png'
+
+
+
 import Bar from "./Bar";
 const languages=[
     {
         icon:java,
         name:"Java",
-        level:"45"
+        level:"90"
+    },
+
+    {
+        icon:spring,
+        name:"Spring Boot",
+        level:"90"
     },
     {
-        icon:java,
-        name:"Java",
-        level:"60"
+        icon:mysql,
+        name:"MySql",
+        level:"90"
     },
     {
-        icon:java,
-        name:"Java",
+        icon:react,
+        name:"React.js",
         level:"80"
     },
     {
-        icon:java,
-        name:"Java",
-        level:"90"
+        icon:js,
+        name:"Javascript",
+        level:"80"
     },
+    {
+        icon:material,
+        name:"Material UI & BootStrap4",
+        level:"75"
+    },
+
+    {
+        icon:python,
+        name:"python",
+        level:"70"
+    },
+    {
+        icon:kotlin,
+        name:"Kotlin",
+        level:"60"
+    },
+
 ]
 const tools=[
     {
-        icon:java,
-        name:"Java",
-        level:"30"
+        icon:linux,
+        name:"Linux",
+        level:"90"
     },
     {
-        icon:java,
-        name:"Java",
-        level:"20"
+        icon:git,
+        name:"Version Control With Git",
+        level:"90"
     },
     {
-        icon:java,
-        name:"Java",
-        level:"10"
+        icon:intellij,
+        name:"Intellij , WebStorm , Eclipse",
+        level:"90"
     },
     {
-        icon:java,
-        name:"Java",
-        level:"40"
+        icon:jira,
+        name:"Jira , Trello ,Slack",
+        level:"60"
     },
+
+    {
+        icon:android,
+        name:"Android Studio",
+        level:"50"
+    },
+
 ]
 
 
