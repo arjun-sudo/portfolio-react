@@ -101,13 +101,13 @@ const Resume = () => {
                         Education
                     </h4>
                     <h5 className="resume-card__title">
-                        Computer Science
+                        Bachelor in Computer Science
                     </h5>
                     <p className="resume-card__name">
-                        Tribhuvan University
+                        Tribhuvan University (2018-2022)
                     </p>
                     <p className="resume-card__details">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores atque beatae culpa cupiditate dolore doloremque enim esse est facilis, harum libero magni numquam officiis rerum, ullam ut vitae voluptates.
+                        I am currently pursuing Bachelor in Computer Science from <b>Texas International College </b>, Kathmandu Nepal.
 
                     </p>
                 </div>
@@ -116,13 +116,19 @@ const Resume = () => {
                         Experience
                     </h4>
                     <h5 className="resume-card__title">
-                        Software Developer
+                        Software Developer Intern
                     </h5>
                     <p className="resume-card__name">
-                        Texas Imaginology
+                        Texas Imaginology (June 2019 – present)
                     </p>
                     <p className="resume-card__details">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores atque beatae culpa cupiditate dolore doloremque enim esse est facilis, harum libero magni numquam officiis rerum, ullam ut vitae voluptates.
+
+                        Designed and Developed <b>Student Management System</b> software for Texas
+                               International College .
+
+                           working as full Stack developer using <strong>Spring , React.js , REST APIs , MySQL , Hibernate /JPA , Maven
+                            ,  Gradle , Design Patterns .</strong>
+
 
                     </p>
                 </div>
