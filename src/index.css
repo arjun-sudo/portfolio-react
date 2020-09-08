@@ -210,11 +210,12 @@ a:hover {
 }
 
 .about__intro {
-    font-size: 1.1rem;
+    /*font-size: 1.1rem;*/
     padding: 20px;
-    margin: 33px 2px;
-    font-size: inherit;
+    margin: 35px 2px;
+    /*font-size: inherit;*/
     text-align: left;
+    color: black;
 
 
 }
@@ -250,6 +251,7 @@ a:hover {
 
 .skill-card-body {
     margin-left: 15px;
+    text-align: left;
 }
 
 .skill-card__content {
