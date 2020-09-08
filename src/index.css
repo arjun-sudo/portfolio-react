@@ -1,178 +1,259 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
- background: linear-gradient(to right,#1c92d2 , #f2fcfe);
-background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(to right, #1c92d2, #f2fcfe);
+    background-attachment: fixed;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-.app__main-content{
-  background-color: white;
-  border-radius: 20px;
-  padding: 25px 15px;
-  box-shadow: 0 0 10px black;
+.app__main-content {
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px 15px;
+    box-shadow: 0 0 10px black;
 }
-.app__row{
-  height:90vh;
+
+.app__row {
+    height: 90vh;
 }
-.app__container{
-  padding-top: 50px;
+
+.app__container {
+    padding-top: 50px;
 }
+
 /*Sidebar*/
-.sidebar{
-  background-color: white;
-  height: 100%;
-  border-radius: 20px;
-  padding: 25px 15px;
-  box-shadow: 0 0 10px black;
-  text-align: center;
-}
-.sidebar__avatar{
-  height: 110px;
-  width: 120px;
-  object-fit: contain;
-  border-radius: 20px;
-}
-.sidebar__icon{
-  width:30px ;
-  height: 30px;
-  margin-bottom: 6px;
+.sidebar {
+    background-color: white;
+    height: 100%;
+    border-radius: 20px;
+    padding: 25px 15px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
 }
 
-.sidebar__name{
-  font-family:'Kaushan Script' ;
-  margin: 20px 0;
-  font-size: 1.8rem;
-}
-.sidebar__name>span{
-  color: #2980b9;
-}
-.sidebar__item{
-  margin-bottom: 6px;
-  padding-top: 6px;
-  font-size: 1.05rem;
-  height: 40px;
-  border-radius: 30px;
-
-}
-.phone__number{
-  font-family:"Abyssinica SIL" ;
-}
-.email{
-  font-family:Arial;
-}
-.sidebar__title{
-background-color: #f1f1f1;
-  border-radius: 30px;
-}
-a{
-  text-decoration: none;
-  color:#2980B9;
-}
-a:hover{
-  text-decoration: none;
-  color:#6DD5FA ;
-}
-.sidebar__contact{
-  background-color: #dbdbdf;
-  border-radius: 30px;
-  margin-bottom: 30px;
-  margin-top:30px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-.sidebar__email{
-  background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-margin: 15px 25px 0px;
-  cursor: pointer;
-  /*transition: 0.1s ;*/
-  border-radius: 30px;
-  box-shadow: 0px 0px 5px black;
-}
-.sidebar__email:hover{
-  transform: scale(1.03 )
-
-}
-.sidebar__github{
-  margin-top: 10px;
-  margin-right: 10px;
-}
-.sidebar__github:hover,
-.sidebar__resume:hover{
-  background-color: #f1f1f1;
-  color: black;
-}
-.mt-2, .my-2 {
-  margin-top: 1rem!important;
-}
-.btn {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 10px 16px;
-  margin: 15px 6px;
-  cursor: pointer;
-  font-size: 1.05rem;
-  border-radius: 11px;
-}
-.btn:hover {
-  background-color: RoyalBlue;
-  color: white;
-  transform: scale(1.03);
-}
-a{
-  color: white;
-  font-style: inherit;
-
-}
-a:hover{
-  color: white;
+.sidebar__avatar {
+    height: 110px;
+    width: 120px;
+    object-fit: contain;
+    border-radius: 20px;
 }
 
-.github{
-  margin-top: 20px;
-  margin-bottom: 20px;
+.sidebar__icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 6px;
 }
-@media(max-width: 991px) {
-  .app__main-content{
-    margin-top: 30px;
+
+.sidebar__name {
+    font-family: 'Kaushan Script';
+    margin: 20px 0;
+    font-size: 1.8rem;
+}
+
+.sidebar__name > span {
+    color: #2980b9;
+}
+
+.sidebar__item {
+    margin-bottom: 6px;
+    padding-top: 6px;
+    font-size: 1.05rem;
+    height: 40px;
+    border-radius: 30px;
+
+}
+
+.phone__number {
+    font-family: "Abyssinica SIL";
+}
+
+.email {
+    font-family: Arial;
+}
+
+.sidebar__title {
+    background-color: #f1f1f1;
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #2980B9;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #6DD5FA;
+}
+
+.sidebar__contact {
+    background-color: #dbdbdf;
+    border-radius: 30px;
     margin-bottom: 30px;
-  }
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.sidebar__email {
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 15px 25px 0px;
+    cursor: pointer;
+    /*transition: 0.1s ;*/
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.sidebar__email:hover {
+    transform: scale(1.03)
+
+}
+
+.sidebar__github {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.sidebar__github:hover,
+.sidebar__resume:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.mt-2, .my-2 {
+    margin-top: 1rem !important;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    margin: 15px 6px;
+    cursor: pointer;
+    font-size: 1.05rem;
+    border-radius: 11px;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+    color: white;
+    transform: scale(1.03);
+}
+
+a {
+    color: white;
+    font-style: inherit;
+
+}
+
+a:hover {
+    color: white;
+}
+
+.github {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .app__main-content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 
 }
 
 /*For navbar Section */
- .navbar__items{
-   display: flex;
- }
-.navbar__active{
-  font-size: 2rem;
-  font-weight: 700;
-  color: #354358;
-  border-bottom: 4px solid deepskyblue;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-width: 5px;
+.navbar__items {
+    display: flex;
 }
-.navbar__item{
-  margin-right: 20px;
-  text-decoration: none;
-  color: #354358;
-  font-size: 1.3rem;
-  cursor: pointer;
-  border-radius: 20px;
+
+.navbar__active {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #354358;
+    border-bottom: 4px solid deepskyblue;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-width: 5px;
 }
-.navbar__item:hover{
- color: deepskyblue;
-  transform: scale3d(1.02,1.02,1);
-  transform-style: flat;
+
+.navbar__item {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #354358;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.navbar__item:hover {
+    color: deepskyblue;
+    transform: scale3d(1.02, 1.02, 1);
+    transform-style: flat;
+}
+
+.about {
+    padding: 20px;
+    margin: -35px;
+}
+
+.about__intro {
+    font-size: 1.1rem;
+    padding: 20px;
+    margin: 33px 2px;
+    font-size: inherit;
+    text-align: left;
+
+
+}
+
+.about__container {
+    background-color: #dbdbdf;
+    padding: 30px 20px;
+    border-radius: 30px;
+}
+
+.about__heading {
+    font-size: 25px;
+    font-weight: 700;
+    color: #354358;
+    margin-left: 30px;
+    text-align: left;
+}
+
+/*Skill Card*/
+.skill-card {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.skill-card__icon {
+    width: 40px;
+    height: 40px;
+}
+
+.skill-card-body {
+    margin-left: 15px;
+}
+
+.skill-card__content {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #6e7e91;
 }

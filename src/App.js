@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
-import {BrowserRouter as Router,Redirect,Switch} from "react-router-dom";
+import {BrowserRouter as Router, Redirect, Switch} from "react-router-dom";
 import Route from "react-router-dom/es/Route";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -30,18 +30,18 @@ function App() {
 
                             <Switch>
 
-                            <Route exact path={"/"}>
-                                <About/>
-                            </Route>
-                            <Route path={"/projects"}>
-                                <Projects/>
-                            </Route>
-                            <Route path={"/resume"}>
-                                <Resume/>
-                            </Route>
-                            <Route>
-                                <Redirect to={'/'} />
-                            </Route>
+                                <Route exact path={"/"}>
+                                    <About/>
+                                </Route>
+                                <Route path={"/projects"}>
+                                    <Projects/>
+                                </Route>
+                                <Route path={"/resume"}>
+                                    <Resume/>
+                                </Route>
+                                <Route>
+                                    <Redirect to={'/'}/>
+                                </Route>
                             </Switch>
                         </div>
                     </div>
