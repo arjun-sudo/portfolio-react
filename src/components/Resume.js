@@ -5,44 +5,44 @@ const languages=[
     {
         icon:java,
         name:"Java",
-        level:""
+        level:"45"
     },
     {
         icon:java,
         name:"Java",
-        level:""
+        level:"60"
     },
     {
         icon:java,
         name:"Java",
-        level:""
+        level:"80"
     },
     {
         icon:java,
         name:"Java",
-        level:""
+        level:"90"
     },
 ]
 const tools=[
     {
         icon:java,
         name:"Java",
-        level:""
+        level:"30"
     },
     {
         icon:java,
         name:"Java",
-        level:""
+        level:"20"
     },
     {
         icon:java,
         name:"Java",
-        level:""
+        level:"10"
     },
     {
         icon:java,
         name:"Java",
-        level:""
+        level:"40"
     },
 ]
 
