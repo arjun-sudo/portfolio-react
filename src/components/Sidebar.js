@@ -5,7 +5,7 @@ import linkedin from "../assets/linkedin.svg";
 // import github from "../assets/github.svg";
 import insta from "../assets/insta.svg";
 import pin from "../assets/pin.svg";
-import avatar from "../assets/avatar.svg";
+import avatar from "../assets/avatar.jpg";
 import GitHubButton from 'react-github-btn'
 import resume from "../assets/resume.pdf"
 
