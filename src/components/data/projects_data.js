@@ -1,11 +1,11 @@
-import employee from "src/assets/projects/typing.png"
+import employee from "/home/arjun/Personal Project/portfolio-react/src/assets/projects/typing.png"
 
 
 const data_projects=[
     {
         name:'Employee Management System',
         image:employee,
-        deployed_url:'',
+        deployed_url:'https://github.com/arjun-sudo/EmployeManagementSystem',
         github_url:'https://github.com/arjun-sudo/EmployeManagementSystem',
         category:['react.js','spring']
     },
@@ -32,3 +32,4 @@ const data_projects=[
     },
 
 ]
+export default data_projects;
