@@ -2,9 +2,13 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div>
-            Projects
-        </div>
+       <div className="container projects">
+           <div className="row">
+               {
+
+               }
+           </div>
+       </div>
     );
 };
 
