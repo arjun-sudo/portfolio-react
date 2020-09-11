@@ -15,10 +15,9 @@ const Projects = () => {
         <div className="container projects">
             <div className="projects__navbar">
                 <div onClick={() => setProjects(data_projects)}>All</div>
-                <div onClick={() => handleFilterCategory('react.js')}>Spring</div>
-                <div onClick={() => handleFilterCategory('mongoDB')}>React</div>
-                <div onClick={() => handleFilterCategory('node.js')}>Full Stack </div>
-                <div onClick={() => handleFilterCategory('vanilla')}>Vanilla</div>
+                <div onClick={() => handleFilterCategory('spring')}>Spring</div>
+                <div onClick={() => handleFilterCategory('react.js')}>React</div>
+                <div onClick={() => handleFilterCategory('java')}>Java </div>
             </div>
             <div className="row">
 

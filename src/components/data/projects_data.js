@@ -1,83 +1,62 @@
-
-import tweetme from '../../assets/projects_images/tweetme.PNG'
-import chatapp from '../../assets/projects_images/chatapp.JPG'
-import hardware_store from '../../assets/projects_images/hardware_store.jpg'
-import portfolio from '../../assets/projects_images/portfolio.JPG'
-import new_year from '../../assets/projects_images/new_year.jpg'
-import color_classification from '../../assets/projects_images/color_classification.jpg'
-import blinking from '../../assets/projects_images/blinking.JPG'
-import COVID from '../../assets/projects_images/COVID.jpg'
-import Dev_talks from '../../assets/projects_images/Dev_talks.jpg'
+import typing from "../../assets/projects_images/typing.png"
+import employee from "../../assets/projects_images/employee.png"
+import atm from "../../assets/projects_images/atm.jpg"
+import kanban from "../../assets/projects_images/kanban.jpg"
+import todo from "../../assets/projects_images/todo.png"
+import contact from "../../assets/projects_images/contact.png"
 
 const data_projects = [
     {
-        name: 'COVID 19 tracker',
-        image: COVID,
-        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
-        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        name: 'Laser Typing Test',
+        image: typing,
+        deployed_url: 'https://lasertyping.netlify.app/',
+        github_url: 'https://github.com/arjun-sudo/TypingTest',
         category: ['react.js']
     },
 
     {
-        name: 'Dev Talks',
-        image: Dev_talks,
-        deployed_url: 'https://dev-talks.herokuapp.com/',
-        github_url: 'https://github.com/Dey-Sumit/Dev-talks',
-        category: ['node.js', 'mongoDB', 'react.js']
+        name: 'Employee Management System',
+        image: employee,
+        deployed_url: 'https://github.com/arjun-sudo/EmployeManagementSystem',
+        github_url: 'https://github.com/arjun-sudo/EmployeManagementSystem',
+        category: ['spring', 'react.js']
     },
 
     {
-        name: 'Realtime Chat App',
-        image: chatapp,
-        deployed_url: 'https://sumit-chat.netlify.app/',
-        github_url: 'https://github.com/Dey-Sumit/chat-app-socket.io-react-node',
-        category: ['node', 'socket.io', 'react']
+        name: 'Smart ATM Management System',
+        image: atm,
+        deployed_url: 'https://github.com/arjun-sudo/ATMWEB',
+        github_url: 'https://github.com/arjun-sudo/ATMWEB',
+        category: ['java']
     },
 
     {
-        name: 'Tweeter Clone',
-        image: tweetme,
-        deployed_url: 'http://sumaxtweetme.pythonanywhere.com/',
-        github_url: 'https://github.com/Dey-Sumit/tweetme',
-        category: ['django', 'react']
+        name: 'Personal Kanban Tool',
+        image: kanban,
+        deployed_url: 'https://github.com/arjun-sudo/PersonalKanbanTool',
+        github_url: 'https://github.com/arjun-sudo/PersonalKanbanTool',
+        category: ['spring', 'react.js']
     },
 
     {
-        name: 'Shop Website',
-        image: hardware_store,
-        deployed_url: '!#',
-        category: ['html_css', 'vanilla']
+        name: 'To do app',
+        image: todo,
+        deployed_url: 'https://github.com/arjun-sudo/todo-app',
+        github_url: 'https://github.com/arjun-sudo/todo-app',
+        category: ['react.js']
+    },
+    {
+        name: 'Contact Management',
+        image: contact,
+        deployed_url: 'https://github.com/arjun-sudo/crm',
+        github_url: 'https://github.com/arjun-sudo/crm',
+        category: ['spring','react.js']
     },
 
-    {
-        name: 'Dev Portfolio',
-        image: portfolio,
-        deployed_url: 'http://suprateem.herokuapp.com/',
-        category: ['vanilla']
-    },
 
-    {
-        name: 'Bengali New Year',
-        image: new_year,
-        deployed_url: 'https://dey-sumit.github.io/NewYear/',
-        category: ['vanilla']
-    },
-
-    {
-        name: 'Color Classification using tf.js',
-        image: color_classification,
-        deployed_url: '!#',
-        github_url: 'https://github.com/Dey-Sumit/color-classification',
-        category: ['node', 'machine_learning']
-    },
-
-    {
-        name: 'Blinking bubbles',
-        image: blinking,
-        deployed_url: 'https://dey-sumit.github.io/Blinking_Bubbles/',
-        github_url: 'https://github.com/Dey-Sumit/Blinking_Bubbles',
-        category: ['processing']
-    }
 ]
+
+
+
 
 export default data_projects;

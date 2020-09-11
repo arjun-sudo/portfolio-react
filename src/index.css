@@ -343,13 +343,10 @@ a:hover {
 
 .projectCard__title {
     margin-top: 12px;
-    font: size 1rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.projectCard__title:hover{
-    color: #6dd5fa;
 }
 
 .projects__navbar {
