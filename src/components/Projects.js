@@ -14,10 +14,10 @@ const Projects = () => {
     return (
         <div className="container projects">
             <div className="projects__navbar">
-                <div onClick={() => setProjects(data_projects)}>All</div>
-                <div onClick={() => handleFilterCategory('spring')}>Spring</div>
-                <div onClick={() => handleFilterCategory('react.js')}>React</div>
-                <div onClick={() => handleFilterCategory('java')}>Java </div>
+                <div className={"click"} onClick={() => setProjects(data_projects)}>All</div>
+                <div className={"click"} onClick={() => handleFilterCategory('spring')}>Spring</div>
+                <div className={"click"} onClick={() => handleFilterCategory('react.js')}>React</div>
+                <div className={"click"} onClick={() => handleFilterCategory('java')}>Java </div>
             </div>
             <div className="row">
 

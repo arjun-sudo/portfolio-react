@@ -353,6 +353,10 @@ a:hover {
     display: flex;
     margin-bottom: 5px;
 }
+.click:hover{
+    color: dodgerblue;
+    transform: scale(1.04);
+}
 
 .projects__navbar>div {
     margin: 0 5px;
