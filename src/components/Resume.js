@@ -5,17 +5,16 @@ import mysql from '../assets/mysql.svg'
 import react from '../assets/react.png'
 import js from '../assets/js.svg'
 import material from '../assets/materil.png'
-import python from '../assets/python.png'
-import kotlin from '../assets/kotlin.png'
 import linux from '../assets/linux.png'
 import git from '../assets/git.png'
 import intellij from '../assets/intellij.png'
 import jira from '../assets/jira.png'
 import android from '../assets/android.png'
-
-
+import flutter from '../assets/Google-flutter-logo.png'
+import aws from '../assets/aws.png'
 
 import Bar from "./Bar";
+
 const languages=[
     {
         icon:java,
@@ -44,21 +43,18 @@ const languages=[
         level:"80"
     },
     {
-        icon:material,
-        name:"Material UI & BootStrap4",
-        level:"75"
+        icon:flutter,
+        name:"Flutter ",
+        level:"70"
     },
 
     {
-        icon:python,
-        name:"python",
-        level:"70"
-    },
-    {
-        icon:kotlin,
-        name:"Kotlin",
+        icon:material,
+        name:"Material UI ",
         level:"60"
     },
+
+
 
 ]
 const tools=[
@@ -82,12 +78,18 @@ const tools=[
         name:"Jira , Trello ,Slack",
         level:"60"
     },
-
     {
-        icon:android,
-        name:"Android Studio",
-        level:"50"
+        icon: android,
+        name: "Android Studio",
+        level: "70"
     },
+    {
+        icon: aws,
+        name:"Amazon Web Services",
+        level: "60"
+    }
+
+
 
 ]
 
