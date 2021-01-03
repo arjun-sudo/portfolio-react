@@ -121,18 +121,32 @@ const Resume = () => {
                         Software Developer Intern
                     </h5>
                     <p className="resume-card__name">
-                        Texas Imaginology (June 2019 – present)
+                        Texas Imaginology (June 2019 – Dec 2020)
+                    </p>
+                    {/*<p className="resume-card__details">*/}
+
+                    {/*    Designed and Developed <b>Student Management System</b> software for Texas*/}
+                    {/*           International College .*/}
+
+                    {/*       working as full Stack developer using <strong>Spring , React.js , REST APIs , MySQL , Hibernate /JPA , Maven*/}
+                    {/*        ,  Gradle , Design Patterns .</strong>*/}
+
+                    {/*</p>*/}
+                    <h5 className="resume-card__title">
+                        Java Developer
+                    </h5>
+                    <p className="resume-card__name">
+                        FOCUSONE Payment Solutions(Dec 2020-present)
+                        <br/>
+                       <strong>MOCO Digital Wallet </strong>
                     </p>
                     <p className="resume-card__details">
 
-                        Designed and Developed <b>Student Management System</b> software for Texas
-                               International College .
-
-                           working as full Stack developer using <strong>Spring , React.js , REST APIs , MySQL , Hibernate /JPA , Maven
-                            ,  Gradle , Design Patterns .</strong>
-
+                    {/*TO DO*/}
 
                     </p>
+
+
                 </div>
             </div>
             <div className="row">
