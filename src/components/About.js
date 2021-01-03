@@ -46,10 +46,9 @@ const About = () => {
 
         <div className="about">
             <h6 className="about__intro">
-                Hi there ! I'm <b>Arjun</b> .I live in Kathmandu , Nepal.
-                I am currently studying <b>Computer Science </b> in <b>Tribhuvan University </b>.
-                I am working as a <b>Software Developer Intern</b> in Texas Imaginology .
-                Call me either Tech Enthusiast or Gadget Lover or evergreen learner.
+                Hi there ! I'm <b>Arjun</b>. I am from Kathmandu , Nepal.
+                I am working as a <b>Java Developer</b> in FOCUSONE Payment Solution (MOCO Digital) .
+                 Call me either Tech Enthusiast or Gadget Lover or evergreen learner.
                 I always believe on learning and sharing .
 
             </h6>
