@@ -136,15 +136,15 @@ const Resume = () => {
                         Java Developer
                     </h5>
                     <p className="resume-card__name">
-                        FOCUSONE Payment Solutions(Dec 2020-present)
-                        <br/>
-                       <strong>MOCO Digital Wallet </strong>
+                        FocusOne Payment Solution(Dec 2020 – present)
                     </p>
-                    <p className="resume-card__details">
 
-                    {/*TO DO*/}
 
-                    </p>
+                  {/*  <p className="resume-card__details">*/}
+
+                  {/*MOCO Digital Wallet*/}
+
+                  {/*  </p>*/}
 
 
                 </div>

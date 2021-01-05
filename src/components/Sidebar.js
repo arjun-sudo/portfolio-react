@@ -12,7 +12,7 @@ import resume from "../assets/resume.pdf"
 const Sidebar = () => {
 
     const handleEmailMe = () => {
-        window.open("mailto:laserarjun@gmail.com")
+        window.open("mailto:arjungautam5431@gmail.com")
     }
     return (
         <div className={"sidebar"}>
@@ -72,7 +72,7 @@ const Sidebar = () => {
                     <img src={pin} alt={""} className={"sidebar__icon "}/>
                     Kathmandu, Nepal
                 </div>
-                <div className="sidebar__item email">laserarjun@gmail.com</div>
+                <div className="sidebar__item email">arjungautam5431@gmail.com</div>
                 <div className={"sidebar__item phone__number"}>9863482273</div>
             </div>
             <div className="sidebar__item sidebar__email" onClick={handleEmailMe}>email me</div>
