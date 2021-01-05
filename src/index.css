@@ -24,12 +24,12 @@ code {
 }
 
 .app__row {
-    height: 90vh;
+    height: 85vh;
 }
 
 .app__container {
-    padding-top: 50px;
-    zoom: 90%;
+    padding-top: 70px;
+    zoom: 95%;
 }
 
 /*Sidebar*/
@@ -37,9 +37,9 @@ code {
     background-color: white;
     height: 100%;
     border-radius: 20px;
-    padding: 25px 15px;
     box-shadow: 0 0 10px black;
     text-align: center;
+    padding: 30px 8px;
 }
 
 .sidebar__avatar {
@@ -71,6 +71,7 @@ code {
     font-size: 1.05rem;
     height: 40px;
     border-radius: 30px;
+
 
 }
 
@@ -104,6 +105,7 @@ a:hover {
     margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 20px;
+
 }
 
 .sidebar__email {
@@ -169,8 +171,8 @@ a:hover {
 
 @media (max-width: 991px) {
     .app__main-content {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
 
 }
@@ -207,14 +209,15 @@ a:hover {
 
 .about {
     padding: 20px;
-    margin: -35px;
+
 }
 
 .about__intro {
-    /*font-size: 1.1rem;*/
-    padding: 20px;
+
+    /*padding: 10px;*/
     margin: 35px 2px;
     /*font-size: inherit;*/
+    margin-bottom: 80px;
     text-align: left;
     color: black;
 
@@ -296,7 +299,7 @@ a:hover {
     width: 90%;
     background-color: #f1f1f1;
     border-radius: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
 }
 .bar__icon{
     width: 23px;
