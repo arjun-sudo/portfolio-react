@@ -214,9 +214,9 @@ a:hover {
 
 .about__intro {
 
-    /*padding: 10px;*/
+
     margin: 35px 2px;
-    /*font-size: inherit;*/
+    font-size: 18px;
     margin-bottom: 80px;
     text-align: left;
     color: black;
