@@ -118,6 +118,13 @@ const Resume = () => {
                         Experience
                     </h4>
                     <h5 className="resume-card__title">
+                        Java Developer
+                    </h5>
+                    <p className="resume-card__name">
+                        FocusOne Payment Solution(Dec 2020 – present)
+                    </p>
+
+                    <h5 className="resume-card__title">
                         Software Developer Intern
                     </h5>
                     <p className="resume-card__name">
@@ -132,12 +139,7 @@ const Resume = () => {
                     {/*        ,  Gradle , Design Patterns .</strong>*/}
 
                     {/*</p>*/}
-                    <h5 className="resume-card__title">
-                        Java Developer
-                    </h5>
-                    <p className="resume-card__name">
-                        FocusOne Payment Solution(Dec 2020 – present)
-                    </p>
+
 
 
                   {/*  <p className="resume-card__details">*/}
