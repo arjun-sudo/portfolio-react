@@ -121,7 +121,7 @@ const Resume = () => {
                         Java Developer
                     </h5>
                     <p className="resume-card__name">
-                        FocusOne Payment Solution(Dec 2020 – present)
+                        FocusOne Payment Solution(Dec 2020 – April 2021)
                     </p>
 
                     <h5 className="resume-card__title">

@@ -47,10 +47,9 @@ const About = () => {
         <div className="about">
             <h6 className="about__intro">
                 Hi there ! I'm <b>Arjun</b> from Nepal.
-                I am working as a <b>Java Developer</b> in FOCUSONE Payment Solution Pvt. Ltd. (MOCO Digital).<br/>
                <br/>
-                &nbsp; &nbsp; &nbsp; &nbsp;
-                I describe my self as someone who's persistent , a quick learner and loves problem solving by using simple and scalable solutions .
+                {/*&nbsp; &nbsp; &nbsp; &nbsp;*/}
+                I describe my self as someone who's persistent, a quick learner and loves problem solving by using simple and scalable solutions .
             </h6>
             <div className="container about__container">
                 <h6 className="about__heading">What I offer</h6>
