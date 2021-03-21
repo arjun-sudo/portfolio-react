@@ -9,6 +9,13 @@ import contact from "../../assets/projects_images/contact.png"
 
 const data_projects = [
     {
+        name: 'Personal Kanban Tool',
+        image: kanban,
+        deployed_url: 'https://github.com/arjun-sudo/Personal-Project-Management-Tool',
+        github_url: 'https://github.com/arjun-sudo/Personal-Project-Management-Tool',
+        category: ['spring', 'react.js']
+    },
+    {
         name: 'Laser Typing Test',
         image: typing,
         deployed_url: 'https://lasertyping.netlify.app/',
@@ -46,13 +53,7 @@ const data_projects = [
         github_url: 'https://github.com/arjun-sudo/todo-app',
         category: ['react.js']
     },
-    {
-        name: 'Personal Kanban Tool',
-        image: kanban,
-        deployed_url: 'https://github.com/arjun-sudo/PersonalKanbanTool',
-        github_url: 'https://github.com/arjun-sudo/PersonalKanbanTool',
-        category: ['spring', 'react.js']
-    },
+
 
 
 ]
